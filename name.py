@@ -7,8 +7,8 @@ import sys
 #   print("too few arguments") 
 
 if len(sys.argv)<2:
-  print("Too few arguments")
+  sys.exit("Too few arguments")
 elif len(sys.argv)>2:
-  print("Too many arguments") 
+  sys.exit("Too many arguments") 
 else:
-  print("hello, my anme is", sys.argv[1])   
+  print("hello, my anme is", sys.argv[1])     
