@@ -1,17 +1,17 @@
-#add numbers 
-x= int(input("whats the value of x?"))
-y= int(input("whats the value of y?"))
-print(x+y)
+# #add numbers 
+# x= int(input("whats the value of x?"))
+# y= int(input("whats the value of y?"))
+# print(x+y)
 
-#doing float additions
-x1= float(input("whats the value of x?"))
-y= float(input("whats the value of y?"))
-z = round(x+y)
-print(z)
-print(f"{z:,}")
+# #doing float additions
+# x1= float(input("whats the value of x?"))
+# y= float(input("whats the value of y?"))
+# z = round(x+y)
+# print(z)
+# print(f"{z:,}")
 
-z=x/y
-print(f"{z:.2f}")
+# z=x/y
+# print(f"{z:.2f}")
 
 # square of number 
 def main():
@@ -21,4 +21,7 @@ def main():
 def square(n):
   a=n*n
   return a 
-main()
+
+if __name__ == "__main__":
+  main()
+  
