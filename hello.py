@@ -18,11 +18,22 @@
 #print(f"hello, {name}")  
 
 
-def hello(to):
-   print("hello,",to)
+# def hello(to):
+#    print("hello,",to)
 
-name1=input("what is your name?")
-hello(name1)
+# name1=input("what is your name?")
+# hello(name1)
 
-  
+
+
+def main():
+  name=input("what is your name?")
+  hello(name)
+def hello(to="world"):
+  print("hello,",to)
+
+if __name__ == "__main__":
+  main()
+
+ 
   
